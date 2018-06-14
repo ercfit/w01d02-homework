@@ -27,8 +27,11 @@ Submit your homework sometime **tonight** between **7 - 11pm CST** so that you c
 #### Answer the following questions</summary>
 
 1. What command do you use to setup a git repository inside of your folder?<br>
+	git init
 1. What command do you use to ask git to start tracking a file?<br>
+	git add
 1. What command do you use to ask git to move your file from the staging area to the repository?<br>
+	git push
 
 <hr>
 &#x1F534; **Commit your work.** <br>
@@ -37,10 +40,15 @@ The commit message should read: <br>
 <hr>
 
 1. What command do you use to pull any changes from the master repository into your local repository?<br>
+	git pull
 1. What command do you use to unstage a file?<br>
+	git rm
 1. What command do you use to change your files back to how they were after a commit?<br>
+	git reset
 1. Why is it important to use `--` when changing files back to a previous state?<br>
+	--hard to discard any changes in tracked files since commit
 1. Why might you want to reset your files back to a previous commit?<br>
+	in the event you've mad a mistake
 
 <hr>
 &#x1F534; ** Commit your work.** <br>
@@ -49,8 +57,11 @@ The commit message should read: <br>
 <hr>
 
 1. What command do you use to create a branch?<br>
+	git branch
 1. What command do you use to use a different branch?<br>
+	git checkout
 1. Why would you want to use a branch other than the default `master`?<br>
+	to make changes without affecting the master branch
 
 <hr>
 &#x1F534; ** Commit your work.** <br>
@@ -59,7 +70,10 @@ The commit message should read: <br>
 <hr>
 
 1. Give an example for when you would use `git merge` and give an example for when it would be better to submit a pull request to have your branch merged<br>
+	git merge if your changes have been approved
+	pull request when you need someone to look over your branch for approval
 1. What command do you use to send all of the work that you've done locally to your remote repository?<br>
+	git push
 
 <hr>
 &#x1F534; ** Commit your work.** <br>
